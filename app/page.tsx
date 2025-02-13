@@ -241,8 +241,7 @@ export default function Home() {
             <div className="bg-veriseek-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold mb-2 text-veriseek-blue">What resources are available for participants?</h3>
               <p className="text-veriseek-gray-700">
-                We provide a range of resources including training materials, workshops, and mentorship opportunities.
-                Visit our Resources page to learn more.
+                We provide a range of resources including training materials, workshops, and mentorship opportunities during the competition.
               </p>
             </div>
             <div className="bg-veriseek-white rounded-lg shadow-md p-6">

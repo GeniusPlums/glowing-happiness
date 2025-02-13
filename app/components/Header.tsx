@@ -39,7 +39,6 @@ const Header = () => {
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/sharkathon">Sharkathon</NavLink>
-          <NavLink href="/resources">Resources</NavLink>
           <NavLink href="/contact">Contact</NavLink>
         </div>
         <div className="md:hidden">
@@ -67,9 +66,6 @@ const Header = () => {
             <NavLink href="/sharkathon" onClick={() => setIsMenuOpen(false)}>
               Sharkathon
             </NavLink>
-            <NavLink href="/resources" onClick={() => setIsMenuOpen(false)}>
-              Resources
-            </NavLink>
             <NavLink href="/contact" onClick={() => setIsMenuOpen(false)}>
               Contact
             </NavLink>
@@ -89,4 +85,3 @@ const NavLink = ({ href, children, onClick }) => (
 )
 
 export default Header
-

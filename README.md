@@ -56,7 +56,6 @@ veriseek-education/
 ├── app/                    # Next.js app directory
 │   ├── about/             # About page
 │   ├── contact/           # Contact page
-│   ├── resources/         # Resources page
 │   ├── sharkathon/        # Sharkathon competition page
 │   ├── components/        # Reusable components
 │   ├── globals.css        # Global styles

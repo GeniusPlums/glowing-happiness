@@ -117,7 +117,7 @@ export default function Sharkathon() {
                 <span>20th June 2025</span>
               </li>
               <li className="flex justify-between items-center">
-                <span className="font-bold text-veriseek-blue">Resources Provided:</span>
+                <span className="font-bold text-veriseek-blue">Materials Provided:</span>
                 <span>1st July 2025</span>
               </li>
               <li className="flex justify-between items-center">
