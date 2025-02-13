@@ -4,11 +4,11 @@
 
 :root {
   /* 60% White */
-  --color-primary: #ffffff;
+  --color-primary: #FFFFFF;
   /* 30% Blue */
-  --color-secondary: #1e3a8a;
+  --color-secondary: #011C41;
   /* 10% Yellow */
-  --color-accent: #fbbf24;
+  --color-accent: #FAD133;
 }
 
 body {

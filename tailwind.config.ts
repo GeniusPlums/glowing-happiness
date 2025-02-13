@@ -11,6 +11,11 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+  			veriseek: {
+  				blue: '#011C41',
+  				yellow: '#FAD133',
+  				white: '#FFFFFF'
+  			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
