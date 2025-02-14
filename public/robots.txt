@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://veriseekeducation.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Important pages
+Allow: /about
+Allow: /sharkathon
+Allow: /competitions
+Allow: /workshops
+
+# Prevent crawling of non-public areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/

@@ -258,19 +258,6 @@ export default function Sharkathon() {
           </motion.div>
         </div>
       </section>
-
-      <section id="register" className="py-20 bg-veriseek-white">
-        <div className="container mx-auto px-6">
-          <motion.h2
-            className="section-title text-center text-veriseek-blue"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            Register for Sharkathon
-          </motion.h2>
-        </div>
-      </section>
     </div>
   )
 }
