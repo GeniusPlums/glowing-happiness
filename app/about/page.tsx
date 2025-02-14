@@ -56,7 +56,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <div>
-              <h2 className="text-3xl font-bold mb-4 text-[#003366]">Our Mission</h2>
+              <h2 className="text-3xl font-bold mb-4 text-veriseek-blue">Our Mission</h2>
               <p className="mb-6">
                 Veriseek is dedicated to empowering students with real-world skills through dynamic competitions and
                 workshops. With a high bar for success, these engaging events seek to complement school education with
@@ -77,7 +77,7 @@ export default function About() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.6 + index * 0.1 }}
                     >
-                      <ArrowRight className="w-5 h-5 text-[#003366] mr-2" />
+                      <ArrowRight className="w-5 h-5 text-veriseek-blue mr-2" />
                       {skill}
                     </motion.li>
                   ),
@@ -90,7 +90,7 @@ export default function About() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-12%20at%2023.06.47_f93a7bb2.jpg-OTBMlYX5eeOX4YhyGMMdtxLFUfKXBc.jpeg"
+                src="/images/placeholders/about/students-collaborating.jpg"
                 alt="Students collaborating"
                 layout="fill"
                 objectFit="cover"
@@ -144,16 +144,15 @@ const TeamMember = ({ name, role, bio, delay }) => (
       transition={{ type: "spring", stiffness: 300 }}
     >
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-12%20at%2023.06.47_f93a7bb2.jpg-OTBMlYX5eeOX4YhyGMMdtxLFUfKXBc.jpeg"
+        src={`/images/team/${name.toLowerCase().replace(" ", "-")}.jpg`}
         alt={name}
         width={128}
         height={128}
         className="object-cover"
       />
     </motion.div>
-    <h3 className="text-2xl font-bold mb-2 text-[#003366] text-center">{name}</h3>
-    <p className="text-center mb-4 text-[#003366]">{role}</p>
+    <h3 className="text-2xl font-bold mb-2 text-veriseek-blue text-center">{name}</h3>
+    <p className="text-center mb-4 text-veriseek-blue">{role}</p>
     <p className="text-center">{bio}</p>
   </motion.div>
 )
-

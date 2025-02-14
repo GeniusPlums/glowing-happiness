@@ -67,7 +67,9 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <Link
-              href="/sharkathon"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSewxQq0FLXY8Hd_tcVegLLoclm2hIrpKiK4CQPmmtiDDEuJbw/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary bg-veriseek-yellow text-veriseek-blue hover:bg-veriseek-white hover:text-veriseek-blue transition-all duration-300 transform hover:scale-105 inline-flex items-center px-6 py-3 rounded-full text-lg font-semibold"
             >
               Join Sharkathon
@@ -206,7 +208,12 @@ export default function Home() {
               <li>Prizes and recognition for top teams</li>
             </ul>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link href="/sharkathon" className="btn-primary inline-flex items-center">
+              <Link
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewxQq0FLXY8Hd_tcVegLLoclm2hIrpKiK4CQPmmtiDDEuJbw/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex items-center"
+              >
                 Learn More About Sharkathon
                 <ArrowRight className="ml-2" />
               </Link>
@@ -277,6 +284,17 @@ export default function Home() {
           >
             Join us in shaping the future of education.
           </motion.p>
+          <div className="flex justify-center mt-8">
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSewxQq0FLXY8Hd_tcVegLLoclm2hIrpKiK4CQPmmtiDDEuJbw/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary bg-veriseek-yellow text-veriseek-blue hover:bg-veriseek-white inline-flex items-center"
+            >
+              Register Now
+              <ArrowRight className="ml-2" />
+            </Link>
+          </div>
         </div>
       </section>
     </div>
